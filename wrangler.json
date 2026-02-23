@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "cloudflare-worker-proxy",
+	"name": "cloudflareworkerproxy2",
 	"main": "WorkerProxy.js",
 	"compatibility_date": "2025-10-08",
 	"upload_source_maps": true,
