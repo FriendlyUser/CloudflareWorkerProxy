@@ -36,6 +36,12 @@ const config = {
   }
 }
 
+export default {
+  async fetch(request, env, ctx) {
+    return handleRequest(request);
+  },
+};
+
 async function handleRequest(request) {
   const url = new URL(request.url)
   
