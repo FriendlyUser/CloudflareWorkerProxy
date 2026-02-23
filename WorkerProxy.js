@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 // Configuration options
 const config = {
   // Support multiple domains, you should modifiy this if you wish to deploy it to your own Cloudflare Worker.
-  proxyDomains: [],
+  proxyDomains: ["cloudflareworkerproxy2.mexicowillpay.workers.dev"],
   separator: '------', // Delimiter between worker path and real target URL
   homepage: true, // Whether to enable the homepage
   allowedDomains: [], // Domain whitelist, set to [] to allow all
